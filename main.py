@@ -5,10 +5,10 @@ import terms
 
 
 def main():
-    Euclid.euc()
-    pascal.pasc()
-    perfection.perf()
-    terms.trm()
+    Euclid.gcd()
+    pascal.pascal_triangle()
+    perfection.is_perfect_number()
+    terms.partition()
 
 if __name__ == '__main__':
     main()
