@@ -1,4 +1,4 @@
-python
+
 def partition(n, min_number=1):
     if n == 0:
         return [[]]  # Базовый случай: если осталось 0, возвращаем пустое разбиение
@@ -16,3 +16,4 @@ def main():
     print_partitions(n)
 if __name__ == "__main__":
     main()
+
